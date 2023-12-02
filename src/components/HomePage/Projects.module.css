@@ -1,0 +1,8 @@
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.tile {
+  border: 1px solid black;
+}
