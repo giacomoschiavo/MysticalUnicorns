@@ -1,6 +1,6 @@
 const NavBar = () => {
   return (
-    <nav className="flex-row">
+    <nav className="navbar flex-row">
       <div className="logo">
         <a href="#home">GiAbo</a>
       </div>

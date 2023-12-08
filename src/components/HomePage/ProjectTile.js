@@ -3,7 +3,7 @@ import styles from "./Projects.module.css";
 const ProjectTile = () => {
   return (
     <div className={`${styles.tile}`}>
-      <p>Nome del progetto</p>
+      <h3>Nome del progetto</h3>
       <button>Qualcosa di importante</button>
     </div>
   );

@@ -1,10 +1,10 @@
 const Outro = () => {
   return (
-    <div clasName="flex-column" style={{ border: "1px solid black" }}>
+    <section className="outro flex-column">
       <h1>Want to work together?</h1>
       <p>Feel free to reach out for collaborations or just a friendly hello</p>
       <button>Contact me</button>
-    </div>
+    </section>
   );
 };
 
