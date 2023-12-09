@@ -15,7 +15,6 @@
   flex: 5;
   border-radius: 20px;
   box-sizing: border-box;
-  border: 1px solid black;
   padding: 20px 25px;
 }
 
@@ -48,6 +47,11 @@
   align-items: center;
 }
 
+.socials {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
 .socials a {
   transition: 0.2s;
   margin: 0 10px;
@@ -62,4 +66,27 @@
 
 .github:hover {
   color: #333;
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.bg:hover {
+  filter: brightness(0.8);
+}
+
+.bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
 }

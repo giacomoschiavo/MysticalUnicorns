@@ -4,7 +4,7 @@ import { projectsInfo } from "../../assets/projectsInfo";
 
 const Projects = () => {
   return (
-    <section className={`${styles.tiles}`}>
+    <section id="projects" className={`${styles.tiles}`}>
       <ProjectTile projectInfo={projectsInfo.poseroyale} />
       <ProjectTile projectInfo={projectsInfo.wwafa} />
     </section>

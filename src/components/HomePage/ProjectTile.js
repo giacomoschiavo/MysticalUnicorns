@@ -1,3 +1,4 @@
+import { CustomButton } from "../CustomButton";
 import styles from "./Projects.module.css";
 
 const ProjectTile = ({ projectInfo = {} }) => {
@@ -6,11 +7,11 @@ const ProjectTile = ({ projectInfo = {} }) => {
       <div className={styles.thumbnail}>
         <img src={projectInfo.thumbnail} alt="project-thumbnail" />
       </div>
-      <div className={styles.description}>
-        <h3>{projectInfo.name}</h3>
-        <p>{projectInfo.description}</p>
+      <div className={styles.project}>
+        <h2 className={styles.title}>{projectInfo.name}</h2>
+        <p className={styles.description}>{projectInfo.description}</p>
         <div></div>
-        <button>Give it a look!</button>
+        <CustomButton>Give it a look!</CustomButton>
       </div>
     </div>
   );
