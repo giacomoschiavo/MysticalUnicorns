@@ -1,12 +1,12 @@
 import styles from "./Projects.module.css";
 import ProjectTile from "./ProjectTile";
+import { projectsInfo } from "../../assets/projectsInfo";
+
 const Projects = () => {
   return (
     <section className={`${styles.tiles}`}>
-      <ProjectTile />
-      <ProjectTile />
-      <ProjectTile />
-      <ProjectTile />
+      <ProjectTile projectInfo={projectsInfo.poseroyale} />
+      <ProjectTile projectInfo={projectsInfo.wwafa} />
     </section>
   );
 };
