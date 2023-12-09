@@ -32,6 +32,13 @@ body {
   margin: 0 auto;
 }
 
+@media only screen and (max-width: 767px) {
+  .container {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+}
+
 .flex-column {
   display: flex;
   flex-direction: column;

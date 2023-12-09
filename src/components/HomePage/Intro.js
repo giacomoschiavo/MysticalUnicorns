@@ -1,4 +1,4 @@
-import profilepic from "../../sas.jpg";
+import profilepic from "../../assets/sas.jpg";
 import styles from "./Intro.module.css";
 import bgintro from "../../assets/bgintro.png";
 import { FaGithub } from "react-icons/fa";
@@ -12,12 +12,13 @@ const Intro = () => {
         <div className={styles.bg}>
           <img src={bgintro} alt="bg-intro" />
         </div>
-        <h1 className={styles.introTit}>
+        <h1 className={styles.title}>
           Hello, I’m Giacomo, a Data Science student.
         </h1>
-        <p>
-          I care a lot about using design for positive impact. and enjoy
-          creating user-centric, delightful, and human experiences.
+        <p className={styles.description}>
+          I'm enthusiastic about using design to make a positive impact and love
+          blending my passion for artificial intelligence and web development to
+          create innovative and user-centric experiences.
         </p>
         <div style={{ flex: 1 }}></div>
         <div className={`${styles.bottom} flex-row`}>
@@ -34,7 +35,7 @@ const Intro = () => {
         </div>
       </div>
       <div className={`${styles.introRight}`}>
-        <img src={profilepic} alt="profile-pic" />
+        <img className={styles.profile} src={profilepic} alt="profile-pic" />
       </div>
     </section>
   );

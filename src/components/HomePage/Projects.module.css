@@ -6,7 +6,7 @@
 .tile {
   position: relative;
   border-radius: 20px;
-  margin: 5px;
+  margin: 10px;
   min-height: 50vh;
   box-sizing: border-box;
 }
@@ -53,4 +53,10 @@
 
 .tile div {
   flex: 1;
+}
+
+@media only screen and (max-width: 767px) {
+  .tiles {
+    grid-template-columns: 1fr;
+  }
 }
