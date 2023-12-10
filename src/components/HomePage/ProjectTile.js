@@ -1,12 +1,12 @@
 import { CustomButton } from "../CustomButton";
 import styles from "./Projects.module.css";
+import { MovingBackground } from "../MovingBackground";
 
 const ProjectTile = ({ projectInfo = {} }) => {
   return (
     <a className={styles.tile} href={projectInfo.link}>
-      <div className={styles.thumbnail}>
-        <img src={projectInfo.thumbnail} alt="project-thumbnail" />
-      </div>
+      <MovingBackground src={projectInfo.background} />
+      <MovingBackground src={projectInfo.thumbnail} animated={false} />
       <div className={styles.project}>
         <h2 className={styles.title}>{projectInfo.name}</h2>
         <p className={styles.description}>{projectInfo.description}</p>
