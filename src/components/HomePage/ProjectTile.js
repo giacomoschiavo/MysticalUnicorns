@@ -3,7 +3,7 @@ import styles from "./Projects.module.css";
 
 const ProjectTile = ({ projectInfo = {} }) => {
   return (
-    <div className={styles.tile}>
+    <a className={styles.tile} href={projectInfo.link}>
       <div className={styles.thumbnail}>
         <img src={projectInfo.thumbnail} alt="project-thumbnail" />
       </div>
@@ -13,7 +13,7 @@ const ProjectTile = ({ projectInfo = {} }) => {
         <div></div>
         <CustomButton>Give it a look!</CustomButton>
       </div>
-    </div>
+    </a>
   );
 };
 

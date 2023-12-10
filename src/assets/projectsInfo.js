@@ -6,6 +6,7 @@ export const projectsInfo = {
     name: "Pose Royale",
     description: "A game about posing",
     thumbnail: poseroyaleThumbnail,
+    link: "https://poseroyale.netlify.app/",
   },
   wwafa: {
     name: "When We All Fall Asleep",

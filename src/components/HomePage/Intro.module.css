@@ -41,17 +41,6 @@
   padding: 20px 25px;
 }
 
-.introLeft:hover img {
-  transition: 0.5s;
-  object-position: right top;
-  /* transform: rotate(10deg); */
-}
-
-.introLeft img {
-  transition: 0.5s;
-  object-position: left 50px;
-}
-
 .introRight {
   width: 100%;
   flex: 2;

@@ -4,14 +4,13 @@ import bgintro from "../../assets/bgintro.png";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { CustomButton } from "../CustomButton";
+import { MovingBackground } from "../MovingBackground";
 
 const Intro = () => {
   return (
     <section className={`${styles.intro} flex-row`}>
       <div className={`${styles.introLeft} flex-column`}>
-        <div className={styles.bg}>
-          <img src={bgintro} alt="bg-intro" />
-        </div>
+        <MovingBackground src={bgintro} alt="bg-intro" />
         <h1 className={styles.title}>
           Hello, I’m Giacomo, a Data Science student.
         </h1>
