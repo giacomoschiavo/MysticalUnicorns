@@ -27,6 +27,11 @@ body {
   scroll-behavior: smooth;
 }
 
+.logo {
+  font-family: "Nunito";
+  font-weight: 800;
+}
+
 .container {
   max-width: 80%;
   margin: 0 auto;

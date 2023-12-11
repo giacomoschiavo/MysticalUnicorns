@@ -9,7 +9,9 @@ const Outro = () => {
       <MovingBackground src={bgoutro} alt="bg-outro" />
       <h1>Want to work together?</h1>
       <p>Feel free to reach out for collaborations or just a friendly hello</p>
-      <CustomButton>Contact me</CustomButton>
+      <a href="mailto:giacomo.schiavo12@gmail.com" target="_blank">
+        Contact me
+      </a>
     </section>
   );
 };

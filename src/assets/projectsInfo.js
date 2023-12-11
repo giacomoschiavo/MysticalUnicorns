@@ -6,14 +6,14 @@ import wwafaThumbnail from "./wwafa.png";
 export const projectsInfo = {
   poseroyale: {
     name: "Pose Royale",
-    description: "A game about posing",
+    description: "Pose detection game using Google's Mediapipe API",
     thumbnail: poseroyaleThumbnail,
     background: poseroyaleBackground,
     link: "https://github.com/giacomoschiavo/pose-royale",
   },
   wwafa: {
     name: "When We All Fall Asleep",
-    description: "A Unity Horror Game",
+    description: "A Horror Game using AI, made in Unity",
     thumbnail: wwafaThumbnail,
     background: wwafaBackground,
     link: "https://github.com/giacomoschiavo/WWAFA",
