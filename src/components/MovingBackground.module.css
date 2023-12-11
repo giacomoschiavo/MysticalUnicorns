@@ -15,7 +15,7 @@
 }
 
 .animated {
-  animation: slide 5s ease-in-out 2s infinite alternate;
+  animation: slide 2s ease-in-out 2s infinite alternate;
 }
 
 @keyframes slide {

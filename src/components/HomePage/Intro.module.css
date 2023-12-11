@@ -58,11 +58,6 @@
   align-items: center;
 }
 
-.socials {
-  margin-top: 10px;
-  margin-left: 20px;
-}
-
 .socials a {
   transition: 0.2s;
   margin: 0 10px;
@@ -77,6 +72,10 @@
 
 .github:hover {
   color: #333;
+}
+
+.mail:hover {
+  color: black;
 }
 
 .bg {

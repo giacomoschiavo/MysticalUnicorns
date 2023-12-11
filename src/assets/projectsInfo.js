@@ -17,5 +17,6 @@ export const projectsInfo = {
     thumbnail: wwafaThumbnail,
     background: wwafaBackground,
     link: "https://github.com/giacomoschiavo/WWAFA",
+    position: "bottom right",
   },
 };

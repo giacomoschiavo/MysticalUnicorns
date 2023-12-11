@@ -5,6 +5,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { CustomButton } from "../CustomButton";
 import { MovingBackground } from "../MovingBackground";
+import { MdOutlineMail } from "react-icons/md";
 
 const Intro = () => {
   return (
@@ -21,19 +22,31 @@ const Intro = () => {
         </p>
         <div style={{ flex: 1 }}></div>
         <div className={`${styles.bottom} flex-row`}>
-          <CustomButton>Contact me</CustomButton>
-          <div style={{ flex: 1 }}></div>
           <div className={styles.socials}>
-            <a href="#" className={styles.github}>
+            <a
+              href="https://www.linkedin.com/in/giacomo-schiavo-a99a32185/"
+              target="_blank"
+              className={styles.linkedin}
+            >
+              <FaLinkedin />
+            </a>
+            <a
+              href="https://github.com/giacomoschiavo"
+              target="_blank"
+              className={styles.github}
+            >
               <FaGithub />
             </a>
-            <a href="#" className={styles.linkedin}>
-              <FaLinkedin />
+            <a
+              href="mailto:giacomo.schiavo12@gmail.com"
+              className={styles.mail}
+            >
+              <MdOutlineMail />
             </a>
           </div>
         </div>
       </div>
-      <div className={`${styles.introRight}`}>
+      <div className={styles.introRight}>
         <img className={styles.profile} src={profilepic} alt="profile-pic" />
       </div>
     </section>

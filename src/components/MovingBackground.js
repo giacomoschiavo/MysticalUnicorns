@@ -11,7 +11,7 @@ export const MovingBackground = ({
       <img
         src={src}
         alt={alt}
-        // className={`${animated && styles.animated}`}
+        className={`${animated && styles.animated}`}
         style={{ objectPosition: position }}
       />
     </div>
