@@ -9,12 +9,13 @@ export const projectsInfo = {
     description: "A game about posing",
     thumbnail: poseroyaleThumbnail,
     background: poseroyaleBackground,
-    link: "https://poseroyale.netlify.app/",
+    link: "https://github.com/giacomoschiavo/pose-royale",
   },
   wwafa: {
     name: "When We All Fall Asleep",
     description: "A Unity Horror Game",
     thumbnail: wwafaThumbnail,
     background: wwafaBackground,
+    link: "https://github.com/giacomoschiavo/WWAFA",
   },
 };
